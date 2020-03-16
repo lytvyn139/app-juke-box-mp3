@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./static/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>MP3 juke box</title>
+</head>
+
+<body>
+
+    <audio id="blink182song">
+        <source src="./static/mp3/blink182.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="beartooth-song">
+        <source src="./static/mp3/beartooth.mp3 " type="audio/mpeg">
+    </audio>
+
+    <audio id="dwp-song">
+        <source src="./static/mp3/dwp.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="pmtmp-song">
+        <source src="./static/mp3/pmtmp.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <section id="user-input" class="card">
+        <div class="control">
+            <label for="artist-name">Artist name:</label>
+            <input type="text" id="artist-name" />
+            <label for="song-name">Song name:</label>
+            <input type="text" id="song-name" />
+        </div>
+
+        <button id="add-song-btn">ADD SONG</button>
+
+        <button id="blink182-btn">Blink 182</button>
+        <button id="beartooth-btn">Beartooth</button>
+        <button id="pause-btn">||</button>
+        <button id="dwp-btn">DWP</button>
+        <button id="pmtmp-btn">PMTMP</button>
+    </section>
+
+    <ul id="song-list" class="card"></ul>
+
+
+
+
+
+</body>
+
+
+<script src="./static/js/app.js"></script>
+</body>
+
+</html>
