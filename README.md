@@ -1,4 +1,4 @@
-#MP3 jukebox 
+## MP3 jukebox 
 goal for this project was:
 * to play around with event handles
 * DOM manipulation
